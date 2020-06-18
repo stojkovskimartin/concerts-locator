@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Дискотеки</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/c3/c3.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/sb-admin.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/c3/d3.min.js"></script>
+    <script src="vendor/c3/c3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+            crossorigin="anonymous"></script>
+    <script src="js/index.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/disko.css">
+    <script src="js/disko.js"></script>
+    <script src="js/logo.js"></script>
+    <style>
+        body {
+            background: url('img/nokni/back.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            -o-background-size: cover;
+            display: none;
+        }
+    </style>
+</head>
+<body style="font-family: 'Century Gothic',sans-serif; display: none">
+
+<nav class="navbar  navbar-expand-lg navbar-light" id="nav" style="background: black">
+    <div class="container">
+        <a class="navbar-brand ml-5" style="font-size: 27px; color: white; width: 10%;" href="Index.html"><img src="img/logo.jpg" id="logo" class="h-100"></a>
+
+        <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" style="font-size: 18px;color: white ;margin-left: -20px" href="UpcomingConcerts.html">
+                       Следни Концерти
+                    </a>
+                </li>
+                <li class="nav-item active ml-3">
+                    <a class="nav-link ml-2 " style="font-size: 18px;color: white;" href="festivali.html">
+                       Фестивали
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        <a href="LogIn.html">
+            <button class="btn btn-success mr-3" style="margin-left: 20px; font-size: 15px" type="submit">Најави се
+            </button>
+        </a>
+        <a href="Registration.html">
+            <button class="btn btn-danger mr-5" style="margin-left: 10px; font-size: 15px" type="submit">
+                Регистрирај се
+            </button>
+        </a>
+    </div>
+</nav>
+
+
+<div class="container p-5" id="main">
+    <h2 class="text-center" style="font-size: 40px; color: deeppink;"><b>Ноќни клубови во Скопје</b></h2>
+    <h4 class="text-center" style="font-size: 22px; color: deeppink;">Дознај повеќе за забавите во најпопуларните ноќни клубови и дискотеки!</h4>
+    <hr>
+    <div id="CA" class="carousel slide" data-ride="carousel">
+        <!--<ol class="carousel-indicators">-->
+            <!--<li data-target="#CA" data-slide-to="0" class="active"></li>-->
+            <!--<li data-target="#CA" data-slide-to="1"></li>-->
+            <!--<li data-target="#CA" data-slide-to="2"></li>-->
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row">
+                    <div class="col">
+                        <div class="card karta">
+                            <a href="https://www.facebook.com/BestClubSkopje/"><img class="card-img-top slika" src="img/nokni/avenue.jpg" alt="Card image 1"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">AVENUE</h5>
+                                <p class="card-text">Night club Avenue</p>
+                                <button class="btn btn-danger">CLICK ON THE IMAGE TO KNOW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card karta">
+                            <a href="https://www.facebook.com/clubcabrioskopje/"><img class="card-img-top slika" src="img/nokni/cabrio.jpg" alt="Card image 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">CABRIO</h5>
+                                <p class="card-text">Club Cabrio - Dance and Night club</p>
+                                <button class="btn btn-info">CLICK ON THE IMAGE TO KNOW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card karta">
+                            <a href="https://www.facebook.com/pages/category/Dance---Night-Club/Central-Park-summer-club-192672397474769/"><img class="card-img-top slika" src="img/nokni/centralpark.jpg" alt="Card image 3"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">CENTRAL PARK</h5>
+                                <p class="card-text">Central park summer club</p>
+                                <button class="btn btn-warning">CLICK ON THE IMAGE TO KNOW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col">
+                        <div class="card karta">
+                            <a href="https://www.facebook.com/xlsummerclub/"><img class="card-img-top slika" src="img/nokni/xl.jpg" alt="Card image 4"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">XL</h5>
+                                <p class="card-text">Summer club, Night club</p>
+                                <button class="btn btn-dark">CLICK ON THE IMAGE TO KNOW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card karta">
+                            <a href="https://www.facebook.com/ClubHavanaSkopje/"><img class="card-img-top slika" src="img/nokni/havana.jpg" alt="Card image 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">HAVANA</h5>
+                                <p class="card-text">Havana summer club</p>
+                                <button class="btn btn-success">CLICK ON THE IMAGE TO KNOW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card karta">
+                            <a href="https://theloft.mk/"><img class="card-img-top slika" src="img/nokni/loft.jpg" alt="Card image 3"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">THE LOFT</h5>
+                                <p class="card-text">The loft - Rooftop bar and club</p>
+                                <button class="btn btn-primary">CLICK ON THE IMAGE TO KNOW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col">
+                        <div class="card karta">
+                            <a href="https://www.facebook.com/intermezzoprive/"><img class="card-img-top slika" src="img/nokni/intermezzo.png" alt="Card image 4"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">INTERMEZZO PRIVE</h5>
+                                <p class="card-text">Pub</p>
+                                <button class="btn btn-dark">CLICK ON THE IMAGE TO KNOW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card karta">
+                            <a href="https://www.facebook.com/ClubHavanaSkopje/"><img class="card-img-top slika" src="img/nokni/mezzo.jpg" alt="Card image 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">MEZZO</h5>
+                                <p class="card-text">Club Mezzo</p>
+                                <button class="btn btn-danger">CLICK ON THE IMAGE TO KNOW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card karta">
+                            <a href="https://www.facebook.com/Central-Park-Privilege-Club-284376191707280/"><img class="card-img-top slika" src="img/nokni/privilege.jpg" alt="Card image 3"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">PRIVILEGE</h5>
+                                <p class="card-text">Central park PRIVILEGE club, summer club</p>
+                                <button class="btn btn-secondary">CLICK ON THE IMAGE TO KNOW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col">
+                        <div class="card karta">
+                            <a href="https://www.facebook.com/Stanica26/"><img class="card-img-top slika" src="img/nokni/stanica26.jpg" alt="Card image 4"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">СТАНИЦА 26</h5>
+                                <p class="card-text">Dance and Night club</p>
+                                <button class="btn btn-danger">CLICK ON THE IMAGE TO KNOW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card karta">
+                            <a href="https://www.facebook.com/sektor909/"><img class="card-img-top slika" src="img/nokni/sektor909.jpg" alt="Card image 2"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">СЕКТОР 909</h5>
+                                <p class="card-text">Танцов и ноќен клуб</p>
+                                <button class="btn btn-warning">CLICK ON THE IMAGE TO KNOW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card karta">
+                            <a href="https://www.facebook.com/Vox.official/"><img class="card-img-top slika" src="img/nokni/vox.jpg" alt="Card image 3"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">VOX</h5>
+                                <p class="card-text">Vox club, night club</p>
+                                <button class="btn btn-info">CLICK ON THE IMAGE TO KNOW MORE</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#CA" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only"><</span>
+        </a>
+        <a class="carousel-control-next" href="#CA" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">></span>
+        </a>
+    </div>
+</div>
+
+
+
+<footer id="footer" class="fixed-bottom" >
+    <div class="footer-copyright text-center py-3" style="background: black;font-size: 20px">
+        <div class="row">
+            <div class="col-md-6 text-right text-white"> © 2019 Задржани права:
+                <a href="https://www.finki.ukim.mk/en" style="color: white;">FINKI</a>
+                <a href="https://www.finki.ukim.mk/en"> </a>
+            </div>
+            <div class="col-md-6 text-left">
+                <button type="button" class="btn btn-lg btn-outline-light"><i class="fa fa-facebook-f" ></i></button>
+                <button type="button" class="btn btn-lg btn-outline-light"><i class="fa fa-instagram"></i></button>
+                <button type="button" class="btn btn-lg btn-outline-light"><i class="fa fa-youtube"></i></button>
+                <button type="button" class="btn btn-lg btn-outline-light"><i class="fa fa-twitter"></i></button>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

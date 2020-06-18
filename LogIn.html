@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/c3/c3.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/sb-admin.css">
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="vendor/c3/d3.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/c3/c3.min.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/logo.js"></script>
+</head>
+<body style="background-image: url('img/background.jpg'); background-size: cover; font-family: 'Century Gothic',sans-serif">
+
+<nav class="navbar  navbar-expand-lg navbar-light" style="background: black">
+    <div class="container">
+        <a class="navbar-brand ml-5 " style="font-size: 27px; color: white;width: 10%;" href="Index.html"><img src="img/logo.jpg" id="logo" class="h-100"></a>
+        <div class="row">
+            <div class="col-md-12 pl-5">
+                <a href="https://www.facebook.com" target="_blank"><button type="button" class="btn btn-outline-light"><i class="fa fa-facebook-f"></i></button></a>
+                <a href="https://www.instagram.com" target="_blank"><button type="button" class="btn btn-outline-light"><i class="fa fa-instagram"></i></button></a>
+                <a href="https://www.youtube.com" target="_blank"><button type="button" class="btn btn-outline-light"><i class="fa fa-youtube"></i></button></a>
+                <a href="https://www.twitter.com" target="_blank"><button type="button" class="btn btn-outline-light"><i class="fa fa-twitter"></i></button></a>
+                <a href="https://www.spotify.com" target="_blank"><button type="button" class="btn btn-outline-light"><i class="fa fa-spotify"></i></button></a>
+            </div>
+        </div>
+
+
+    </div>
+</nav>
+
+<section id="main" style="display: none">
+    <div class="container mt-5 p-3 bg-light" style="opacity: 0.98; border: 2px solid black; border-radius: 5px;">
+        <div class="row p-3">
+
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <form>
+                    <h2 class="mb-3 mt-3">Најавете се!</h2><hr>
+                    <div class="form-group pt-2">
+                        <input type="email" class="form-control w-75" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Внеси e-mail адреса">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control w-75" id="exampleInputPassword1" placeholder="Внеси лозинка">
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label " for="exampleCheck1">Запамети ме!</label>
+                    </div>
+
+                </form><hr>
+                <a href="Index.html"><button type="button" class="btn btn-success" style="width: 15%;">Најави се!</button></a>
+                <button type="button" class="btn btn-secondary ml-5" id="forgot">Ја заборавив лозинката</button>
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+        <br><br>
+    </div>
+</section><br>
+
+<section id="second" class="pt-5" style="display: none">
+    <div class="container bg-white" style="opacity: 0.98; border: 2px solid black; border-radius: 5px;">
+        <div class="row p-3">
+            <div class="col-md-2"></div>
+            <div class="col-md-8">
+                <form>
+                    <div class="form-group pt-2">
+                        <label for="exampleInputEmail2" style="font-size: 18px;">Внесете e-mail за да се прати нова лозинка</label>
+                        <input type="email" class="form-control w-75" id="exampleInputEmail2" aria-describedby="emailHelp" placeholder="Внеси e-mail адреса">
+                    </div>
+
+                </form><hr>
+                <a href="Index.html"><button type="submit" class="btn btn-danger" style="width: 15%;">Потврди</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer  class="fixed-bottom">
+    <div class="footer-copyright text-center p-1" style="
+        background-color: black; font-size: 17px">
+        <div class="row">
+            <div class="col-md-12 pt-2 text-center text-white"> © 2019 Copyright:
+                <a href="https://www.finki.ukim.mk/en" style="color: white;">FINKI</a>
+                <a href="https://www.finki.ukim.mk/en"> </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

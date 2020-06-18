@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Следни концерти</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="vendor/c3/c3.min.css">
+    <link rel="stylesheet" href="vendor/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/sb-admin.css">
+    <link rel="stylesheet" type="text/css" href="css/test.css">
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/c3/d3.min.js"></script>
+    <script src="vendor/c3/c3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+            integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"
+            integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+            crossorigin="anonymous"></script>
+    <script src="js/table.js"></script>
+    <script src="js/login.js"></script>
+    <script src="js/logo.js"></script>
+</head>
+<body id="main" style="display: none; background-image: url('img/tablebg.jpg'); background-size: 100%; background-attachment: fixed; font-family: 'Century Gothic',sans-serif;">
+
+<nav class="navbar  navbar-expand-lg navbar-light " style="background: black; border-bottom-color: white">
+    <div class="container">
+        <a class="navbar-brand ml-5 text-white" style="font-size: 27px; width: 10%;" href="Index.html"><img src="img/logo.jpg" id="logo" class="h-100"></a>
+
+        <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" style="font-size: 18px; margin-left: -20px" href="festivali.html">
+                        Фестивали
+                    </a>
+                </li>
+                <li class="nav-item active ml-3">
+                    <a class="nav-link ml-2 text-white" style="font-size: 18px;" href="diskoteki.html">
+                        Ноќни клубови
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+
+        <a href="LogIn.html">
+            <button class="btn btn-success mr-3" style="margin-left: 20px; font-size: 15px" type="submit">Најави се
+            </button>
+        </a>
+        <a href="Registration.html">
+            <button class="btn btn-danger mr-5" style="margin-left: 10px; font-size: 15px" type="submit">
+                Регистрирај се
+            </button>
+        </a>
+    </div>
+</nav>
+
+<section>
+    <div class="jumbotron bg-transparent">
+        <div class="container" >
+            <div class="row" >
+                <div class="col-md-3" >
+                </div>
+                <div class="col-md-6  justify-content-center p-3" style="background: royalblue; border: 2px solid white; border-radius: 5px; ">
+                    <h1 style="text-align: center; font-size: 30px; color: white">Побарај ги најдобрите концерти</h1>
+                    <br>
+                    <br>
+                    <form class="form-inline justify-content-center pb-3">
+                        <input class="form-control w-75" type="search" placeholder="Search" aria-label="Search..."
+                               id="search">
+                    </form>
+                </div>
+                <div class="col-md-3" >
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="tablesection" style="font-size: 15px;">
+    <div class="container p-4" id="tmp">
+        <div class="row ">
+            <div class="col-md-12">
+                <table class="table table-striped table-bordered bg-light" >
+                    <thead class="thead-light"></thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br><br><br>
+
+<section style="background: firebrick" class="pt-4 pb-5">
+    <div class="container text-white" id="previousconcerts" style="display:none;">
+        <h1 class="mt-5" style="font-size: 40px;">Претходни концерти</h1>
+        <p style="font-size: 20px">Разгледај нашата заедница што мисли за претходните настани!</p>
+        <hr class="p-1 bg-white">
+        <div class="row mt-5">
+            <div class="card-deck pb-4">
+                <div class="card border-white">
+                    <a href="lennykravitz.html" class="h-100"><img src="img/lennykravitz.jpg" class="card-img h-100"></a>
+                </div>
+                <div class="card border-white bg-primary">
+                    <a href="Nokaut.html" class="h-100"><img src="img/n.jpg" class="card-img h-100"></a>
+                </div>
+                <div class="card border-white bg-dark">
+                    <a href="Tom%20Odell.html" class="h-100"><img src="img/tomodell.jpg" class="card-img h-100"></a>
+                </div>
+                <div class="card border-white">
+                    <a href="Hooverphonic.html" class="h-100"><img src="img/hooverphonic.jpg" class="card-img h-100"></a>
+                </div>
+                <div class="card border-white">
+                    <a href="Postmodernjukebox.html" class="h-100"><img src="img/jukebox.jpg" class="card-img h-100"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section  class="bg-white" >
+    <div class="container" id="sponsors" style="display:none;">
+        <hr class="bg-dark p-1 mt-5">
+        <div class="row p-1">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-2"><img src="img/Logos-TMobile.jpg" class="w-75 h-75" alt="..."></div>
+                    <div class="col-md-2"><img src="img/kkzs.jpg" class="w-75 h-75" alt="..."></div>
+                    <div class="col-md-2"><img src="img/avalon.jpg" class="w-75 h-75" alt="..."></div>
+                    <div class="col-md-2"><img src="img/cocacolalogo.jpg" class="w-75 h-75" alt="..."></div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-5 pt-2 text-center">
+                <h4>Најави се со Spotify за подобро искуство</h4>
+                <a href="https://www.spotify.com" target="_blank"><button type="button" class="btn btn-lg btn-success w-75" >
+                    <i class="fa fa-spotify" style="font-size: 20px;"></i> Најави се</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer id="footer" style="display: none">
+    <div class="footer-copyright text-center py-3" style="background: black;font-size: 20px">
+        <div class="row">
+            <div class="col-md-6 text-right text-white"> © 2019 Задржани права:
+                <a href="https://www.finki.ukim.mk/en" style="color: white;">ФИНКИ</a>
+                <a href="https://www.finki.ukim.mk/en"> </a>
+            </div>
+            <div class="col-md-6 text-left">
+                <a href="https://www.facebook.com" target="_blank"><button type="button" class="btn btn-lg btn-outline-light"><i class="fa fa-facebook-f" ></i></button></a>
+                <a href="https://www.instagram.com" target="_blank"><button type="button" class="btn btn-lg btn-outline-light"><i class="fa fa-instagram"></i></button></a>
+                <a href="https://www.youtube.com" target="_blank"><button type="button" class="btn btn-lg btn-outline-light"><i class="fa fa-youtube"></i></button></a>
+                <a href="https://www.twitter.com" target="_blank"><button type="button" class="btn btn-lg btn-outline-light"><i class="fa fa-twitter"></i></button></a>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+</html>
