@@ -8,7 +8,7 @@ Download the project via the Clone or download option (green button to the right
 To navigate through the project, we recommend that you open it via Index.html.
 
 ## Making
-For the overall development of the project, we worked with the Bootstrap package, JavaScript (jQuery), WebScraping.
+For the overall development of the project, we worked with the Bootstrap, HTML, CSS, JavaScript (jQuery), WebScraping.
 
 ## Members
 Bojan Ristovski
