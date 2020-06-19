@@ -1,4 +1,4 @@
-#Musical events in the vicinity of Skopje 
+#Music events in the city of Skopje 
 The following project was made in order to show the music events with the category Concerts in the city of Skopje. Past concerts and subsequent concerts within half a year are covered.
 
 ## Download
